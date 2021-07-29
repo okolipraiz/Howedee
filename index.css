@@ -1,0 +1,178 @@
+/* Google fonts cdn link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #04548a;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+nav .navbar {
+    height: 100%;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+nav .navbar .logo a img{
+    width: 40px;
+    height: 40px;
+}
+nav .navbar .nav-links{
+    height: 100%;
+    line-height: 70px;
+}
+nav .navbar .nav-links .links{
+    display: flex;
+}
+nav .navbar .nav-links .links li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 14px;
+}
+nav .navbar .nav-links .links li a{
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+}
+nav .navbar .nav-links .links li .arrow{
+    height: 100%;
+    width: 22px;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    transition: all 0.3s ease;
+}
+nav .navbar .nav-links .links li:hover .prop-arrow,
+nav .navbar .nav-links .links li:hover .real-arrow{
+    transform: rotate(180deg);
+}
+nav .navbar .nav-links .links .sub-menu{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #04548a;
+    line-height: 40px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.2);
+    display: none;
+}
+nav .navbar .nav-links .links .sub-menu li{
+    padding: 0 22px;
+    border-bottom: 1px solid #e0e2e4;
+}
+nav .navbar .nav-links .links .sub-menu li a{
+    color: #fff;
+    font-size: 15px;
+    font: 500;
+}
+.navbar .nav-links .links li:hover .prop-sub-menu,
+.navbar .nav-links .links li:hover .real-sub-menu{
+    display: block;
+}
+
+.navbar .bx-menu,
+    .nav-links .sidebar-logo .logo_name,
+    .nav-links .sidebar-logo .bx-x {
+        display: none;
+    }
+
+/* responsive navbar */
+ @media (max-width:954px) {
+    nav .navbar{
+        max-width: 100%;
+        padding: 0 25px;
+    }
+    nav .navbar .nav-links .links li{
+        padding: 0 10px;
+    }
+    nav .navbar .nav-links .links li a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:800px) {
+    nav .navbar .nav-links{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        max-width: 270px;
+        width: 100%;
+        background: #04548a;
+        padding: 20px;
+        line-height: 40px;
+    }
+    nav .navbar .nav-links .sidebar-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar .bx-menu,
+    .nav-links .sidebar-logo .logo_name,
+    .nav-links .sidebar-logo .bx-x {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .navbar .bx-menu,
+    .nav-links .sidebar-logo .logo_name,
+    .nav-links .sidebar-logo .bx-x {
+        display: block;
+    }
+    nav .navbar .nav-links .links{
+        display: block;
+        margin-top: 20px;
+    }
+    nav .navbar .nav-links .links li{
+        display: block;
+    }
+    nav .navbar .nav-links .links .sub-menu{
+        display: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        box-shadow: none;
+    }
+    nav .navbar .nav-links .links .sub-menu li{
+        border-bottom: none;
+    }
+    nav .navbar .nav-links .links .sub-menu li a{
+        color: #fff;
+    }
+    .navbar .nav-links .links li:hover .prop-sub-menu,
+.navbar .nav-links .links li:hover .real-sub-menu{
+    display: none;
+}
+   nav .navbar .nav-links .links li .arrow{
+       line-height: 40px;
+   }
+   nav .navbar .nav-links .links li:hover .prop-arrow,
+   nav .navbar .nav-links .links li:hover .real-arrow{
+    transform: rotate(0deg);
+   }
+
+   nav .navbar .nav-links.show .links .sub-menu.prop-sub-menu{
+       display: block;
+   }
+    
+
+
+} 
