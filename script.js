@@ -10,9 +10,3 @@ menuCloseBtn.addEventListener("click", ()=> {
     navLinks.style.left="-100%"
 })
 
-// sidebar sub menu open close js
-
-let propArrow = document.querySelector("prop-arrow")
-propArrow.addEventListener("click", ()=> {
-    navLinks.classList.toggle("show1")
-})

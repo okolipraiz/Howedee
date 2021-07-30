@@ -1,10 +1,12 @@
 /* Google fonts cdn link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 nav{
@@ -16,6 +18,15 @@ nav{
     background: #2e2e2e;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
     z-index: 99999 !important;
+}
+nav .home{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
 }
 nav .navbar {
     height: 100%;
@@ -49,7 +60,7 @@ nav .navbar .nav-links .links li a{
     color: #fff;
     text-decoration: none;
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -58,7 +69,7 @@ nav .navbar .nav-links .links li a:hover{
     color: rgb(248, 189, 78);
     text-decoration: none;
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -189,7 +200,7 @@ nav  .navbar .nav-links .links u li:hoverr{
    }
 } 
 
-
+           /* Showcase  */
 .showcase {
     height: 450px;
   }
@@ -340,4 +351,114 @@ nav  .navbar .nav-links .links u li:hoverr{
         border: none;
         border-radius: 5px;
         font-weight: bold;
+}
+
+           /* Home Content */
+.homeContent .homeHero{
+    position: relative;
+    background-color: #f4f4f4;
+    font-size: 1rem;
+    height: 500px;
+} 
+.homeContent .homeHero .search{
+    z-index: 15 !important;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} 
+.homeContent .homeHero #mainSearch{
+    position: relative;
+}    
+.homeContent  #mainSearch #text{
+    font-weight: 400;
+    font-size: 7.8125rem;
+    line-height: 7.8125rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    letter-spacing: -2.9px;
+}   
+
+#homeWrap .homeHero .homeImg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#homeWrap .homeHero #text{
+    text-align: center;
+    padding-left: 25%;
+}
+#homeWrap .homeHero .home-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+}
+
+        /* responsive home content */
+
+@media (max-width: 1366px){
+    #homeWrap .homeHero #text{
+        padding-left: 18%;
+    }
+}
+@media (max-width: 1024px){
+    .homeContent .homeHero{
+        height: 300px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .homeContent .homeHero{
+        height: 250px;
+    }
+}
+
+/* continue */
+@media (max-width: 1920px) {
+    .homeContent  #mainSearch #text{
+        font-size: 5.875rem;
+        line-height: 5.875rem;
+        margin-bottom: 1.125rem;
+        letter-spacing: -2.2px;
+    }
+}
+@media (max-width: 1366px) {
+    .homeContent  #mainSearch #text{
+        font-size: 4.375rem;
+        line-height: 4.375rem;
+        margin-bottom: .875rem;
+        letter-spacing: -1.6px;
+    }
+}
+@media (max-width: 1024px) {
+    .homeContent  #mainSearch #text{
+        font-size: 3.125rem;
+        line-height: 3.125rem;
+        margin-bottom: .5rem;
+        letter-spacing: -1.1px;
+    }
+}
+@media (max-width: 768px) {
+    .homeContent  #mainSearch #text{
+        font-size: 2.375rem;
+        line-height: 2.375rem;
+        margin-bottom: .5rem;
+        letter-spacing: -.87px;
+    }
+    #homeWrap .homeHero #text{
+        padding-left: 12%;
+        font-size: 25px;
+    }
 }
