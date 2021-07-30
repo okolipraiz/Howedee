@@ -351,6 +351,7 @@ nav  .navbar .nav-links .links u li:hoverr{
         border: none;
         border-radius: 5px;
         font-weight: bold;
+        cursor: pointer;
 }
 
            /* Home Content */
