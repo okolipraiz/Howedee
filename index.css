@@ -291,6 +291,7 @@ nav  .navbar .nav-links .links u li:hoverr{
     .showcase-content {
       text-align: left;
       padding-top: 20px;
+      height: 600px;
     }
     .showcase-content img {
       display: flex;
