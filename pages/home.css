@@ -7,7 +7,6 @@
 /* xxxxxxxxxxxxxxxxxxxx Slider xxxxxxxxxxxxxxxxxxxxxxxxxx */
  .carousel-item{
     position: relative;
-    background-color: #f4f4f4;
     font-size: 1rem;
     height: 600px;
 }
