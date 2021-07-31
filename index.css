@@ -145,6 +145,13 @@ nav  .navbar .nav-links .links u li:hoverr{
         padding: 20px;
         line-height: 40px;
     }
+    nav{
+      height: 50px;
+    }
+    nav .navbar .logo a img{
+      width: 30px;
+      height: 30px;
+  }
     nav .navbar .nav-links .sidebar-logo{
         display: flex;
         align-items: center;
