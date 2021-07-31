@@ -1,0 +1,95 @@
+/* xxxxxxxxxxxxxxxxxxxx Slider xxxxxxxxxxxxxxxxxxxxxxxxxx */
+ .carousel-item{
+    position: relative;
+    background-color: #f4f4f4;
+    font-size: 1rem;
+    height: 600px;
+}
+#carouselExampleCaptions .carousel .carousel-item{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* .carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+} */
+.carousel-caption{
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h5{
+    font-size: 80px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 16px;
+    top: 2rem;
+}
+
+/* xxxxxxxxxxxx responsive slide xxxxxxxxxxxxx */
+
+@media (max-width: 1024px) {
+    .carousel-item{
+        height: 400px;
+    }
+}
+@media(max-width: 768px){
+    .carousel-control-next, 
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-item{
+        height: 360px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .carousel-caption{
+        font-size: 2.375rem;
+        line-height: 2.375rem;
+        margin-bottom: .5rem;
+        letter-spacing: -.87px;
+    }
+}
+@media(max-width: 399px) {
+    .carousel-item{
+        height: 200px;
+    }
+}
+
+       
+        
+        
+        /*xxxxxxxxxxxxxxxxxxx Footer xxxxxxxxxxxxxxxxxxxxx*/
+.footWrap{
+      font-weight: 400;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 25px;
+      text-align: left;
+      text-transform: none;
+}
+ .footTop{
+    background-color: #2e2e2e;
+    padding: 100px 0 70px;
+}
+        
+        /*xxxxxxxxxxxxxx responsive footer xxxxxxxxxxxxxxx*/
+@media (max-width: 767.98px) {
+       .footTop{
+             padding: 50px 30px 30px;
+        }
+ }
