@@ -1,3 +1,4 @@
 {
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "github-enterprise.uri": "vscode://vscode.github-authentication/did-authenticate?windowid=1&code=660307e78263038853ba&state=d580aa7d-a193-4415-bfa4-34cff66821c4"
 }

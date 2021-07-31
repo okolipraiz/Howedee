@@ -1,3 +1,9 @@
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 /* xxxxxxxxxxxxxxxxxxxx Slider xxxxxxxxxxxxxxxxxxxxxxxxxx */
  .carousel-item{
     position: relative;
@@ -71,25 +77,4 @@
 }
 
        
-        
-        
-        /*xxxxxxxxxxxxxxxxxxx Footer xxxxxxxxxxxxxxxxxxxxx*/
-.footWrap{
-      font-weight: 400;
-      font-size: 14px;
-      font-weight: 300;
-      line-height: 25px;
-      text-align: left;
-      text-transform: none;
-}
- .footTop{
-    background-color: #2e2e2e;
-    padding: 100px 0 70px;
-}
-        
-        /*xxxxxxxxxxxxxx responsive footer xxxxxxxxxxxxxxx*/
-@media (max-width: 767.98px) {
-       .footTop{
-             padding: 50px 30px 30px;
-        }
- }
+
