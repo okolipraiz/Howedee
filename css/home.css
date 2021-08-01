@@ -460,3 +460,152 @@ nav  .navbar .nav-links .links u li:hoverr{
     }
   }
 
+/* xxxxxxxxxxxxxx About styles xxxxxxxxxxxxxxxxxx */
+.about{
+    padding: 35px;
+}
+.row{
+    padding-top: 20vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .a-content,
+.row .a2-content,
+.row .a-con{
+    position: relative;
+    width: 48%;
+}
+.row .a-con .con-text{
+    position: absolute;
+    margin-left: 120%;
+    width: 90%;
+    top: -60%;
+}
+.row .a2-content .con2-text{
+    position: absolute;
+    width: 90%;
+    top: -60%;
+}
+.titleText{
+    font-size: 2em;
+    font-weight: 300;
+}
+.titleText span{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .a-content .imgBx,
+.row .a-content .imgx,
+.row .a-content .imgbx{
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+.row .a-content .imgBx img{
+    position: absolute;
+    top: -70%;
+    left: 230%;
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+}
+.row .a-content .imgx img{
+    position: absolute;
+    top: -78%;
+    left: 230%;
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+}
+.row .a-content .imgbx img{
+    position: absolute;
+    top: -70%;
+    margin-left: 33px;
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* xxxxxxxxxxxxxxxxx Responsive about xxxxxxxxxxxxxxxxx */
+@media (max-width:991px) {
+    .about{
+        padding: 20px;
+    }
+    .about .a-heading{
+        padding-top: 20vh;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .a-content,
+    .row .a2-content,
+    .row .a-con{
+        position: relative;
+        width: 100%;
+    }
+    .row .a-content .imgBx,
+    .row .a-content .imgx,
+    .row .a-content .imgbx{
+        height: 300px;
+        margin-top: 20px;
+    }
+    .row .a-content .imgBx img {
+        top: 1%;
+        left: 0;
+        width: 100%;
+    }
+    .row .a-content .imgbx img {
+        top: 1%;
+        left: -8%;
+        width: 100%;
+        margin-top: 90px;
+    }
+    .row .a-content .imgx img {
+        top: 1%;
+        left: 0;
+        width: 100%;
+        margin-top: 180px;
+    }
+    .row .a-con .con-text{
+        margin-top: 90px;
+        margin-left: 4%;
+        width: 100%;
+    }
+    .row .a2-content .con2-text{
+        margin-top: 180px;
+        margin-left: 4%;
+        width: 100%;
+    }
+    .titleText{
+        font-size: 1.8em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+}
+@media (max-width: 760px) {
+    .row .a-content .imgbx img{
+        left: -2%;
+    }
+    .row .a-con .con-text,
+    .row .a2-content .con2-text{
+        width: 80%;
+    }
+}
+@media (max-width: 420px) {
+    .about .a-heading{
+        padding-top: 20vh;
+    }
+    .row .a-content .imgbx img{
+        margin-top: 120px;
+        left: -5%;
+    }
+    .row .a-content .imgx img{
+        margin-top: 230px;
+    }
+    .row .a2-content .con2-text{
+        margin-top: 200px;
+    }
+}
