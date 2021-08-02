@@ -618,3 +618,18 @@ nav  .navbar .nav-links .links u li:hoverr{
         margin-top: 200px;
     }
 }
+
+/* xxxxxxxxxxxxxx Map and Contact xxxxxxxxxxxx */
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+section .container .conStyle{
+    color: orange;
+}
+
+/* xxxxxxxxxxxxxxxxxx Footer xxxxxxxxxxxxxxxxxxx */
+footer .container .linkStyle{
+    color: orange;
+}
