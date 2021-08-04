@@ -64,42 +64,6 @@ nav .navbar .nav-links .links li a:hover{
     font-weight: 500;
 }
 
-nav .navbar .nav-links .links li .arrow{
-    height: 100%;
-    width: 22px;
-    text-align: center;
-    color: #fff;
-    line-height: 70px;
-    transition: all 0.3s ease;
-}
-nav .navbar .nav-links .links li:hover .prop-arrow,
-nav .navbar .nav-links .links li:hover .real-arrow{
-    transform: rotate(180deg);
-}
-nav .navbar .nav-links .links .sub-menu{
-    position: absolute;
-    top: 70px;
-    left: 0;
-    background: #2e2e2e;
-    line-height: 40px;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.2);
-    display: none;
-}
-nav .navbar .nav-links .links .sub-menu li{
-    padding: 0 22px;
-    border-bottom: 1px solid #e0e2e4;
-}
-nav .navbar .nav-links .links .sub-menu li a{
-    color: #fff;
-    font-size: 15px;
-    font: 500;
-}
-.navbar .nav-links .links li:hover .prop-sub-menu,
-.navbar .nav-links .links li:hover .real-sub-menu{
-    display: block;
-}
-
 .navbar .bx-menu,
     .nav-links .sidebar-logo .logo_name,
     .nav-links .sidebar-logo .bx-x {
@@ -169,34 +133,6 @@ nav  .navbar .nav-links .links u li:hoverr{
     nav .navbar .nav-links .links li{
         display: block;
     }
-    nav .navbar .nav-links .links .sub-menu{
-        display: none;
-        position: relative;
-        top: 0;
-        left: 0;
-        box-shadow: none;
-    }
-    nav .navbar .nav-links .links .sub-menu li{
-        border-bottom: none;
-    }
-    nav .navbar .nav-links .links .sub-menu li a{
-        color: #fff;
-    }
-    .navbar .nav-links .links li:hover .prop-sub-menu,
-.navbar .nav-links .links li:hover .real-sub-menu{
-    display: none;
-}
-   nav .navbar .nav-links .links li .arrow{
-       line-height: 40px;
-   }
-   nav .navbar .nav-links .links li:hover .prop-arrow,
-   nav .navbar .nav-links .links li:hover .real-arrow{
-    transform: rotate(0deg);
-   }
-
-   nav .navbar .nav-links.show .links .sub-menu.prop-sub-menu{
-       display: block;
-   }
 } 
 
            /* Showcase  */
