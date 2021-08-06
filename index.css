@@ -21,7 +21,6 @@ nav{
 }
 nav .navbar {
     height: 100%;
-    max-width: 1250px;
     margin: auto;
     display: flex;
     align-items: center;
