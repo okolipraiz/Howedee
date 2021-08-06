@@ -33,7 +33,6 @@ nav .home{
 }
 nav .navbar {
     height: 100%;
-    max-width: 1250px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -210,8 +209,9 @@ nav  .navbar .nav-links .links u li:hoverr{
 /* xxxxxxxxxxxxx Cards xxxxxxxxxxxxxxxxxxxxx  */
 
 #facilities h2{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 50px;
+    padding-top: 90px;
 }
 #facilities .container{
     padding-top: 0;
@@ -219,11 +219,10 @@ nav  .navbar .nav-links .links u li:hoverr{
 #facilities .container > div{
     flex-grow: 1;
     flex-basis: 0;
-    padding: 3rem .9rem;
+    padding: .2rem .9rem;
 }
 .title{
     text-align: center;
-    padding: 25px 0px;
 }
 .card-body{
     box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
@@ -249,6 +248,19 @@ nav  .navbar .nav-links .links u li:hoverr{
     color: rgb(248, 189, 78);
 }
 
+/* Responsive card text */
+@media (max-width: 450px) {
+    #facilities h2{
+        font-weight: 200;
+        font-size: 40px;
+    }
+}
+@media (max-width: 300px) {
+    #facilities h2{
+        font-weight: 200;
+        font-size: 30px;
+    }
+}
 
 
 /* Services */
