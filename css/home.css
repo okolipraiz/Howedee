@@ -487,43 +487,21 @@ nav  .navbar .nav-links .links u li:hoverr{
     .row{
         flex-direction: column;
     }
-    .row .a-content,
-    .row .a2-content,
-    .row .a-con{
+    .row .a-content{
         position: relative;
         width: 100%;
     }
-    .row .a-content .imgBx,
-    .row .a-content .imgx,
-    .row .a-content .imgbx{
+    .row .a-content .imgBx{
+        height: 300px;
+        margin-top: 20px;
+    }
+    .row .a-content .img-bx{
         height: 300px;
         margin-top: 20px;
     }
     .row .a-content .imgBx img {
         top: 1%;
         left: 0;
-        width: 100%;
-    }
-    .row .a-content .imgbx img {
-        top: 1%;
-        left: -8%;
-        width: 100%;
-        margin-top: 90px;
-    }
-    .row .a-content .imgx img {
-        top: 1%;
-        left: 0;
-        width: 100%;
-        margin-top: 180px;
-    }
-    .row .a-con .con-text{
-        margin-top: 90px;
-        margin-left: 4%;
-        width: 100%;
-    }
-    .row .a2-content .con2-text{
-        margin-top: 180px;
-        margin-left: 4%;
         width: 100%;
     }
     .titleText{
@@ -533,28 +511,9 @@ nav  .navbar .nav-links .links u li:hoverr{
         font-weight: 300;
     }
 }
-@media (max-width: 760px) {
-    .row .a-content .imgbx img{
-        left: -2%;
-    }
-    .row .a-con .con-text,
-    .row .a2-content .con2-text{
-        width: 80%;
-    }
-}
 @media (max-width: 420px) {
     .about .a-heading{
         padding-top: 20vh;
-    }
-    .row .a-content .imgbx img{
-        margin-top: 120px;
-        left: -5%;
-    }
-    .row .a-content .imgx img{
-        margin-top: 230px;
-    }
-    .row .a2-content .con2-text{
-        margin-top: 200px;
     }
 }
 @media (max-width: 356px) {
